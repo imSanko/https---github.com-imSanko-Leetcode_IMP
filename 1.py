@@ -14,7 +14,7 @@ for i in range(1, num_files + 1):
     with open(file_name, 'w') as file:
         # Optionally write a template or header in each file
         file.write(f"# DSA Problem {i}\n")
-        file.write(f"# Write your solution for DSA problem {i} here\n")
+        file.write(f"# Write your soefjefefution for DSA problem {i} here\n")
         file.write("\n")
 
 print(f"{num_files} Python files created in folder '{folder_name}'")
