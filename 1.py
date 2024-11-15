@@ -4,7 +4,7 @@ import shutil
 # Define the folder name
 folder_name = "DSA_Files"
 
-# Check if the folder exists
+# Check i the folder exists
 if os.path.exists(folder_name):
     # Remove the folder and all its contents
     shutil.rmtree(folder_name)
