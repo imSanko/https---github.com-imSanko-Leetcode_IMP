@@ -11,4 +11,5 @@ if os.path.exists(folder_name):
     print(f"All files in '{folder_name}' have been deleted.")
 else:
     print(f"The folder '{folder_name}' does not exist.")
-if
+if:
+    print("Hello World")
