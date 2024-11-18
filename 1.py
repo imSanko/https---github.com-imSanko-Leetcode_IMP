@@ -18,3 +18,5 @@ if condition:
 else:
     print("Goodbye World")
 while True:
+    print("This is an infinite loop")
+    break
