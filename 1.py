@@ -12,4 +12,7 @@ if os.path.exists(folder_name):
 else:
     print(f"The folder '{folder_name}' does not exist.")
 if:
-    print("Hello World")
+    print("Hello World")    
+else:
+    print("Goodbye World")
+```
