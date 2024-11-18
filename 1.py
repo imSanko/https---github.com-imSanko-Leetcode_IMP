@@ -17,3 +17,4 @@ if condition:
     print("Hello World")
 else:
     print("Goodbye World")
+while True:
