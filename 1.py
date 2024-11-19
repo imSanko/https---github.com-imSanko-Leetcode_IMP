@@ -32,6 +32,4 @@ graph = {
 
 start_vertex = 'A'
 print(dijkstra(graph, start_vertex))
-```
-
-```python
+   
