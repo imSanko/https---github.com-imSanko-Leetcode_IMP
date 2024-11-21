@@ -21,7 +21,7 @@ def dijkstra(graph, start):
 				heapq.heappush(priority_queue, (distance, neighbor))
 	
 	return distances
-w|# Example usage are: create a graph and call the function as shown below exampleeefeeffeefeffeffffeefefefefeefe
+w|# Example usage are: create a graph and call the function as shown below exampleeefeeffeefeffeffffeefefefefeefeefe
 # Example usage are: create a graph and call the function as shown below example
 graph = {
 	'A': {'B': 1, 'C': 4},
