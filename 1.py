@@ -31,5 +31,5 @@ graph = {
 }
 
 start_vertex = 'A'
-print(dijkstra(graph, start_vertex))
+print(dijkstra(graph, start_vertex))  # Output: {'A': 0, 'B': 1, 'C': 3, 'D': 4}
    
