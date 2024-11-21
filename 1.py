@@ -23,7 +23,7 @@ def dijkstra(graph, start):
 	return distances
 w|# Example usage are: create a graph and call the function as shown below example effefefeefeffcvesddfdfassdunction as shown below example
 graph = {
-	'A': {'B': 1, 'C': 4},sorted# Graph as an adjacency list with weights as values of the inner dictionary 	efficiently represent the graphFEF	'B': {'A': 1, 'C': 2, 'D': 5},WDWDWDD	'C': {'A': 4, 'B': 2, 'D': 1},	while priority_queue:DWDWDWWDWDWWDWV	WD	SWSSDWCSWSDDWSFF	FDFDFVFEFSDCESDDWDSWWWWVEVWDASDSDWSDAWD
+	'A': {'B': 1, 'C': 4},sorted# Graph as an adjacency list with weights as values of the inner dictionary 	efficiently represent the graphFEF	'B': {'A': 1, 'C': 2, 'D': 5},WDWDWDD	'C': {'A': 4, 'B': 2, 'D': 1},	while priority_queue:DWDWDWWDWDWWDWV	WD	SWSSDWCSWSDDWSFF	FDFDFVFEFSDCESDDWDSWWWWVEVWDASDSDWSDAWDAASC
 	'B': {'A': 1, 'C': 2, 'D': 5},
 	'C': {'A': 4, 'B': 2, 'D': 1},	while priority_queue: 
 	'D': {'B': 5, 'C': 1}	# Graph as an adjacency list with weights as values of the inner dictionary 	efficiently represent the graph
