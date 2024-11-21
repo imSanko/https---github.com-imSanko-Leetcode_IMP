@@ -27,7 +27,7 @@ graph = {
 	'A': {'B': 1, 'C': 4},
 	'B': {'A': 1, 'C': 2, 'D': 5},
 	'C': {'A': 4, 'B': 2, 'D': 1},	while priority_queue: 
-	'D': {'B': 5, 'C': 1}
+	'D': {'B': 5, 'C': 1}	# Graph as an adjacency list with weights as values of the inner dictionary 	efficiently represent the graph
 } # Graph as an adjacency list with weights as values of the inner dictionary 	efficiently represent the graph
 
 start_vertex = 'A' # Starting vertex for the algorithm to start from 	
