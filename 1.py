@@ -22,7 +22,7 @@ def dijkstra(graph, start):
 	
 	return distances
 w|# Example usage are: create a graph and call the function as shown below example effefefe
-# Example usage are: create a graph and call the fefefefef	efeefeffwefefefefesxcefefeunction as shown below example
+# Example usage are: create a graph and call the fefefefef	efeefeffwefefefefesxcefefeefunction as shown below example
 graph = {
 	'A': {'B': 1, 'C': 4},
 	'B': {'A': 1, 'C': 2, 'D': 5},
