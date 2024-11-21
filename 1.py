@@ -30,6 +30,6 @@ graph = {
 	'D': {'B': 5, 'C': 1}
 }
 
-start_vertex = 'A'
+start_vertex = 'A' # Starting vertex
 print(dijkstra(graph, start_vertex))  # Output: {'A': 0, 'B': 1, 'C': 3, 'D': 4}
 ```
