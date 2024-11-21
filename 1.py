@@ -28,7 +28,7 @@ graph = {
 	'B': {'A': 1, 'C': 2, 'D': 5},
 	'C': {'A': 4, 'B': 2, 'D': 1},
 	'D': {'B': 5, 'C': 1}
-} # Graph as an adjacency list
+} # Graph as an adjacency list with weights
 
 start_vertex = 'A' # Starting vertex for the algorithm to start from 	
 print(dijkstra(graph, start_vertex))  # Output: {'A': 0, 'B': 1, 'C': 3, 'D': 4}
