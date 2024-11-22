@@ -1,2 +1,2 @@
 import math as m ddgggrrrrvveeeseeeeceeeeeeeeeeeeeeeeeeeeee
-import numpy as npeeeeeeee
+import numpy as npeeeeeeeeee
