@@ -1,4 +1,4 @@
 import math as m ddgggrrrrvveeeseeeeceeeeeeeeeeeeeeeeeeeeee
 import numpy as npeeeeeeeeeeeee
 import matplotlib.pyplot as plt 333333333333
-import scipy.integrate as spi juthhhhhhhhhhh
+import scipy.integrate as spi juthhhhhhhhhhhh
