@@ -2,4 +2,4 @@ import math as m ddgggrrrrvveeeseeeeceeeeeeeeeeeeeeeeeeeeee
 import numpy as npeeeeeeeeeeeee
 import matplotlib.pyplot as plt 333333333333
 import scipy.integrate as spi juthhhhhhhhhhhhhhhhhhhh
-import scipy.optimize as spoggggggggghiiuuijthvhhhhhhhhhhhhtjgggggunnnnggggggghhhh
+import scipy.optimize as spoggggggggghiiuuijthvhhhhhhhhhhhhtjgggggunnnnggggggghhhhh
