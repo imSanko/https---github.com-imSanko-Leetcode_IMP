@@ -1,0 +1,1 @@
+{"name":"Local: tcs2_String","url":"m:\\Jithub\\https---github.com-imSanko-Leetcode_IMP\\tcs2_String.cpp","tests":[{"id":1732874257703,"input":"6\nhd el llo wor ell lds\nhelloworlds","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"m:\\Jithub\\https---github.com-imSanko-Leetcode_IMP\\tcs2_String.cpp","group":"local","local":true}

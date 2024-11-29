@@ -1,33 +1,17 @@
-import heapq
 
-def dijkstra(graph, start):
-	# Initialize distances with infinity
-	distances = {vertex: float('infinity') for vertex in graph}
-	distances[start] = 0
-	priority_queue = [(0, start)]
-	
-	while priority_queue:
-		current_distance, current_vertex = heapq.heappop(priority_queue)
-		
-		if current_distance > distances[current_vertex]:
-			continue
-		
-		for neighbor, weight in graph[current_vertex].items():
-			distance = current_distance + weight
-			
-			if distance < distances[neighbor]:
-				distances[neighbor] = distance
-				heapq.heappush(priority_queue, (distance, neighbor))
-	
-	return distances
-
-# Example usage
-graph = {
-	'A': {'B': 1, 'C': 4},
-	'B': {'A': 1, 'C': 2, 'D': 5},
-	'C': {'A': 4, 'B': 2, 'D': 1},
-	'D': {'B': 5, 'C': 1}
+    "111110010001010010010010111110010001": "Z",
+    "111110010001010010010010010010010010": "X"
 }
 
-start_vertex = 'A'
-print(dijkstra(graph, start_vertex))
+def extract_letter(grid):
+    letter_pattern = ''.join(''.join(row) for row in grid)
+    return alphabet_patterns.get(letter_pattern, "?")
+
+def split_input_grid(lines):
+    cols = len(lines[0])
+    letters = []
+    start = 0
+
+    while start < cols:
+        if all(line[start] == '0' for line in lines):
+            start += 1
