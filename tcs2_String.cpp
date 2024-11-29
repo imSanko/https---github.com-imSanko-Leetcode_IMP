@@ -1,65 +1,46 @@
 #include <iostream>
-#include <vector>
 #include <string>
-#include <algorithm>
+#include <vector>
+#include <unordered_map>
+https://telegram.me/+_hn3cBQVbGliYTI9
 
 using namespace std;
 
-// Function to recursively remove substrings and count the maximum removals
-int max_removals(string main_string, const vector<string>& substrings, vector<bool>& used_substrings) {
-    int max_removed = 0;
+int dp(string& s, vector<string>& v, unordered_map<string, int>& memo) {
+    
+    if (memo.count(s)) return memo[s];
+// @PLACEMENTLELO
+    int placementlelo = 0;
+https://telegram.me/+_hn3cBQVbGliYTI9
 
-    // Try removing each substring and recursively calculate the maximum removals
-    for (size_t i = 0; i < substrings.size(); ++i) {
-        // Skip if the substring has already been used
-        if (used_substrings[i]) {
-            continue;
-        }
-
-        // Find the substring in the main string
-        size_t pos = main_string.find(substrings[i]);
+    for (auto& x : v) {
+        size_t pos = s.find(x); 
+// @PLACEMENTLELO
         if (pos != string::npos) {
-            // Mark the substring as used
-            used_substrings[i] = true;
-
-            // Remove the substring from the main string
-            string new_string = main_string.substr(0, pos) + main_string.substr(pos + substrings[i].length());
-
-            // Recursively calculate the number of removals with the updated string
-            max_removed = max(max_removed, 1 + max_removals(new_string, substrings, used_substrings));
-
-            // Mark the substring as unused for other recursive calls
-            used_substrings[i] = false;
+            string new_string = s.substr(0, pos) + s.substr(pos + x.size());
+            placementlelo = max(placementlelo, 1 + dp(new_string, v, memo));
         }
     }
-
-    return max_removed;
+// @PLACEMENTLELO
+    return memo[s] = placementlelo;
 }
 
 int main() {
-    size_t N;
-    cin >> N;  // Number of substrings
-    cin.ignore();  // To ignore the newline character after reading N
-
-    vector<string> substrings(N);
-    for (size_t i = 0; i < N; ++i) {
-        cin >> substrings[i];  // Reading each substring
+    int n;
+    cin >> n;
+// @PLACEMENTLELO
+    vector<string> substrings(n);
+    for (int i = 0; i < n; ++i) {
+        cin >> substrings[i];
     }
+https://telegram.me/+_hn3cBQVbGliYTI9
 
-    string main_string;
-    cin >> main_string;  // The main string to be modified
+    string mainString;
+    cin >> mainString;
+// @PLACEMENTLELO
+    unordered_map<string, int> memo;
 
-    // Vector to keep track of used substrings
-    vector<bool> used_substrings(N, false);
-
-    // Calling the function to calculate the maximum number of substrings that can be removed
-    int result = max_removals(main_string, substrings, used_substrings);
-
-    // Output the result
-    cout << result << endl;
+    cout << dp(mainString, substrings, memo) << endl;
 
     return 0;
 }
-
-
-///corrent code 
