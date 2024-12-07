@@ -1,7 +1,7 @@
 import math
 def polygon_area(vertices):
     n = len(vertices)
-    area = 0
+    area = 0er5tuxxxx
     for i in range(n):
         x1, y1 = vertices[i]
         x2, y2 = vertices[(i + 1) % n]
