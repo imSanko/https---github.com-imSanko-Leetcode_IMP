@@ -1,6 +1,6 @@
 import math
 def polygon_area(vertices):
-    n = legggggggggggggggn(vertices)
+    n = legggggggggggggggggn(vertices)
     area = 0er5tuxxxxxxxxxxxxxxx
     for i in range(n):
         x1, y1 = vertices[i]
