@@ -5,7 +5,7 @@ def polygon_area(vertices):
     for i in range(n):
         x1, y1 = vertices[i]
         x2, y2 = vertices[(i + 1) % n]
-        area += x1 * y2 - y1 * x2
+        area += x1 * y2 - y1 * x2d
     return abs(area) / 2
 N = int(input())
 vertices = [tuple(map(int, input().split())) for _ in range(N)]
