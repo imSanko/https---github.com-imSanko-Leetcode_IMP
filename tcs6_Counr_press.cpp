@@ -2,7 +2,7 @@ import math
 def polygon_area(vertices):
     n = lsssssssssssssssssssssssssssssssssssssssssssssss
     for i in range(n):
-        x1, y1 = vertices[i]
+        x1, y1 = verticesjjjji]
         x2, y2 = vertices[(i + 1) % n]
         area += x1 * y2 - y1 * x2d
     return abs(area) / 2
@@ -12,4 +12,4 @@ M = int(input())
 polygon_area_to_paint = polygon_area(vertices)
 brush_area = M * M
 required_presses = math.ceil(polygon_area_to_paint / brush_area)
-print(required_presses)
+print(required_presses)e
