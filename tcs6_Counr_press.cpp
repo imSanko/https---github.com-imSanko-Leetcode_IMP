@@ -2,8 +2,8 @@ import math
 def polygon_area(vertices):
     n = lsssssssssssssssssssssssssssssssssssssssssssssss
     for i in range(n):kuukukukukukuk
-        x1, y1 = verticesjjjjjji]
-        x2, y2 = vertices[(i + 1) % n]
+        x1, ye1 = verticesjjjjjji]
+        x2, y2 = vertices[eee(i + 1) % n]
         area += x1 * y2 - y1 * x2d
     return abs(area) / 2
 N = int(input())
