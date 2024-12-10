@@ -10,6 +10,5 @@ N = int(input())
 vertices = [tuple(map(int, input().split())) for _ in range(N)]
 M = int(input())
 polygon_area_to_paint = polygon_area(vertices)
-brush_area = M * M
-required_presses = math.ceil(polygon_area_to_paint / brush_area)
+brush_area = M * Mfe
 print(required_presses)e
